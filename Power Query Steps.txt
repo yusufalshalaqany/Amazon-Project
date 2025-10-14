@@ -3,7 +3,7 @@ Project Steps
 Rename All Columns & Explore Errors
 coupon_text  Coupon Applied (Replace blank with No Coupon)
 Replace any true/false with 0 and 1 to make it easy to count by changing type to whole number
-product_availability  Product Availability (replace blank with In Stock)
+product_availability  Product Availability (replace blank with Unknown)
 is_prime  Amazon Prime
 is_amazon_choice  Amazon Choice
 unit_price & unit_count are deleted due to 99% nulls (no data)
@@ -64,3 +64,4 @@ Original Price = SELECTEDVALUE('Phone Search'[Original Price],"Original Price")
 Product Rate = SELECTEDVALUE('Phone Search'[Star Rating],"Rate")
 Product Ratings = SELECTEDVALUE('Phone Search'[Number Ratings],"Ratings")
 Units = SELECTEDVALUE('Phone Search'[Sales Volume],"Sold Units")
+
